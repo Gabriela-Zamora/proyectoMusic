@@ -1,0 +1,284 @@
+@charset "utf-8";
+img{
+    height: 1071px;
+}*{
+    margin:0;
+    padding: 0;
+}
+#titulo{
+    text-align: center;
+    margin-top: -750px;
+    color:white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 220px;
+}
+#segtitulo{
+    float: left;
+    margin: 450px 100px 0 100px;
+}
+p{
+    font-size: 23px;  
+}
+h2{
+    background: linear-gradient(90deg,#fa7272,purple);
+    -webkit-background-clip: text;
+    color: transparent;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 60px;
+    line-height:50px;
+}
+h3{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 60px;
+    line-height:35px;
+}
+h4{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 60px;
+    line-height:10px;
+}
+#img2{
+    float: right;
+    margin: -704px 100px 0 100px;
+}
+#img3{
+    float: left;
+    margin: 178px 100px 0 100px;
+}
+div{
+    margin: 50px 50px 50px 50px;
+}
+footer{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+    margin: 25px;
+    font-weight: lighter;
+    text-align: center;
+}
+#segundo{
+    float: left;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;;
+    font-weight: 405;
+}
+#tercer{
+    float: right;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;;
+    font-weight: 405;
+    margin: 266px 100px 0 100px;
+}
+#cuarto{
+    text-align: right;
+    margin: -650px 150px;
+    color:white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 5px;
+    line-height:50px;
+}
+#cuartop{
+    height: 100%;
+    width: 104%;
+    
+}
+#quintop{
+    margin-top: 706px;
+    height: 310px;
+    background-color: #fd4c5c;
+    padding: 110px;
+}
+#tables{
+    margin: 35px;
+    height: 250px;
+    width: 1035px;
+    font-weight: lighter;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+}
+button{
+    background-color: #fd4c5c;
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border: none;
+    height: 40px;
+    width: 150px;
+    border-radius: 15px ;
+}
+@media(max-width:1200px){
+    #titulo{
+        text-align: center;
+        margin-top: -500px;
+        font-size: 220px;
+    }img{
+        height: 677px;
+    }h2{
+        font-size: 60px;
+        line-height:70px;
+    }
+    h3{
+        font-size: 60px;
+        line-height:85px;
+    }h4{
+        font-size: 60px;
+        line-height:85px;
+    }#segtitulo{
+        float: left;
+        margin: 450px 100px 0 45px;
+    }#img2{
+        float: right;
+        margin: -546px -6px 0 100px;
+    }#img3{
+        float: left;
+        margin: 78px 100px 0 48px;
+    }#tercer{
+        font-weight: 405;
+        margin: -534px 7px 0 100px;
+    }#cuarto{
+        margin: -650px -30px;
+    }#cuartop{
+        margin-left: -49px;
+    }#quintop{
+        margin-right: -7px;
+        height: 268px;
+    }#tables {
+        margin: 22px;
+        height: 237px;
+        width: 642px;
+    }
+}
+@media(max-width:992px){
+    #titulo {
+        text-align: center;
+        margin-top: -397px;
+        font-size: 120px;
+    }img{
+        height: 559px;
+    }h2{
+        font-size: 52px;
+        line-height:67px;
+    }
+    h3{
+        font-size: 52px;
+        line-height:67px;
+    }h4{
+        font-size: 52px;
+        line-height:67px;
+    }p{
+        font-size: 18px;  
+    }#segtitulo{
+        float: left;
+        margin: 450px 100px 0 45px;
+    }#img2{
+        float: right;
+        margin: -546px -6px 0 100px;
+    }#img3{
+        float: left;
+        margin: 78px 100px 0 48px;
+    }#tercer{
+        font-weight: 405;
+        margin: -534px 7px 0 100px;
+    }#cuarto{
+        margin: -629px -30px;
+    }#cuartop{
+        margin-left: -49px;
+    }#quintop{
+        margin-right: -7px;
+        height: 194px;
+    }#tables {
+        margin: -6px;
+        height: 227px;
+        width: 623px;
+    }
+}@media(max-width:768px){
+    #titulo {
+        text-align: center;
+        margin: -390px 0 0 259px;
+        font-size: 107px;
+    }img{
+        height: 559px;
+    }h2{
+        font-size: 52px;
+        line-height:67px;
+    }
+    h3{
+        font-size: 52px;
+        line-height:67px;
+    }h4{
+        font-size: 52px;
+        line-height:67px;
+    }p{
+        font-size: 18px;  
+    }#segtitulo{
+        float: left;
+        margin: 450px 100px 0 45px;
+    }#img2 {
+        float: right;
+        margin: -546px -219px 0 100px;
+    }#img3{
+        float: left;
+        margin: 78px 100px 0 48px;
+    }#tercer{
+        font-weight: 405;
+        margin: -534px -215px 0 100px;
+    }#cuarto{
+        margin: -629px -243px;
+    }#cuartop{
+        margin-left: -49px;
+    }#quintop{
+        margin-right: -224px;
+        height: 194px;
+    }#tables {
+        margin: -6px;
+        height: 227px;
+        width: 623px;
+    }
+}@media(max-width:576px){
+    #titulo {
+        text-align: center;
+        margin: -224px 0 0 29px;
+        font-size: 59px;
+    }img{
+        height: 325px;
+    }h2{
+        font-size: 40px;
+        line-height:40px;
+    }
+    h3{
+        font-size: 30px;
+        line-height:40px;
+    }h4{
+        font-size: 30px;
+        line-height:40px;
+    }p{
+        font-size: 10px;  
+    }#segtitulo {
+        float: left;
+        margin: 236px 59px 0 -5px;
+    }#img2 {
+        float: right;
+        margin: -334px -6px 0 100px;
+    }#img3{
+        float: left;
+        margin: 78px 100px 0 29px;
+    }#tercer {
+        font-weight: 405;
+        margin: -306px 3px 0 100px;
+    }#cuarto{
+        margin: -337px -61px -832px;
+    }#cuartop{
+        margin-top: 50px;
+        margin-left: -49px;
+    }#quintop{
+        margin-right: -224px;
+        height: 194px;
+    }#tables {
+        margin: -4px;
+        height: 167px;
+        width: 379px;
+    }tr{
+        font-size: 10px;
+    }
+    button {
+        height: 28px;
+        width: 111px;
+        border-radius: 12px;
+    }
+}
